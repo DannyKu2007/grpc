@@ -7,7 +7,7 @@
 package proto_user_service
 
 import (
-	v1 "github.com/dycent/grpc-contracts/gen/go/user_service/model/v1"
+	v1 "github.com/DannyKu2007/grpc-contracts/gen/go/user_service/model/v1"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

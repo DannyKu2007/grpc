@@ -236,7 +236,7 @@ type Any struct {
 	// In practice, teams usually precompile into the binary all types that they
 	// expect it to use in the context of Any. However, for URLs which use the
 	// scheme `http`, `https`, or no scheme, one can optionally set up a type
-	// server that maps type URLs to message definitions as follows:
+	// service that maps type URLs to message definitions as follows:
 	//
 	// * If no scheme is provided, `https` is assumed.
 	// * An HTTP GET on the URL must yield a [google.protobuf.Type][]

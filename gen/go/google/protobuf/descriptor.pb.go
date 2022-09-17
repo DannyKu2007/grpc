@@ -1296,7 +1296,7 @@ type MethodDescriptorProto struct {
 	Options    *MethodOptions `protobuf:"bytes,4,opt,name=options" json:"options,omitempty"`
 	// Identifies if client streams multiple client messages
 	ClientStreaming *bool `protobuf:"varint,5,opt,name=client_streaming,json=clientStreaming,def=0" json:"client_streaming,omitempty"`
-	// Identifies if server streams multiple server messages
+	// Identifies if service streams multiple service messages
 	ServerStreaming *bool `protobuf:"varint,6,opt,name=server_streaming,json=serverStreaming,def=0" json:"server_streaming,omitempty"`
 }
 
